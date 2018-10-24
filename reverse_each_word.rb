@@ -17,7 +17,11 @@ def reverse_each_word(sentence)
 end
 
 def reverse_each_word(string)
-  
+  new_string = string.to_a 
+  new_string.collect { 
+    |name| name.reverse}
+  end
+new_string.join()
 
 
     
